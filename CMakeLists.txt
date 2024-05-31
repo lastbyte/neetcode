@@ -23,6 +23,8 @@ add_executable(contains_duplicate.out src/contains_duplicate.cpp)
 add_executable(merge_two_sorted.out src/merge_two_sorted.cpp)
 add_executable(two_integer_sum.out src/two_integer_sum.cpp)
 add_executable(reverse_linked_list.out src/reverse_linked_list.cpp)
+add_executable(trapping_rain_water.out src/trapping_rain_water.cpp)
+add_executable(max_water_container.out src/max_water_container.cpp)
 
 # Link the static library to the executables that need it
 target_link_libraries(merge_two_sorted.out definitions)
