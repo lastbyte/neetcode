@@ -25,6 +25,9 @@ add_executable(two_integer_sum.out src/two_integer_sum.cpp)
 add_executable(reverse_linked_list.out src/reverse_linked_list.cpp)
 add_executable(trapping_rain_water.out src/trapping_rain_water.cpp)
 add_executable(max_water_container.out src/max_water_container.cpp)
+add_executable(buy_sell_crypto.out src/buy_sell_crypto.cpp)
+add_executable(longest_substring_without_duplicates.out src/longest_substring_without_duplicates.cpp)
+add_executable(binary_search.out src/binary_search.cpp)
 
 # Link the static library to the executables that need it
 target_link_libraries(merge_two_sorted.out definitions)
