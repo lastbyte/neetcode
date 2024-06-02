@@ -28,6 +28,7 @@ add_executable(max_water_container.out src/max_water_container.cpp)
 add_executable(buy_sell_crypto.out src/buy_sell_crypto.cpp)
 add_executable(longest_substring_without_duplicates.out src/longest_substring_without_duplicates.cpp)
 add_executable(binary_search.out src/binary_search.cpp)
+add_executable(climbing_stairs.out src/climbing_stairs.cpp)
 
 # Link the static library to the executables that need it
 target_link_libraries(merge_two_sorted.out definitions)
